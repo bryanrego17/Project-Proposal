@@ -1,10 +1,11 @@
 ---
 title: "Intro to project"
-output: html_document
+output: pdf_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r load-data, eval = FALSE}
+library(tidyverse)
+House <- read_csv(data)
 ```
 
 ## R Markdown
